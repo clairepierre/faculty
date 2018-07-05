@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE collection SYSTEM "collection.dtd">
+<!--<?xml-stylesheet type="text/css" href="movie.css"?>-->
+<?xml-stylesheet type="text/xsl" href="movie.xsl"?>
+<collection>
+	<movie>
+		<title>Super Troopers</title>
+		<actors>Lynda Carter, Emmanuelle Chriqui, Rob Lowe, Brian Cox</actors>
+		<genre>Crimă</genre>
+		<dateofplaying>17.04.2018</dateofplaying>
+		<duration>107 min</duration>
+	</movie> 
+	<movie>
+		<title>A Quiet Place</title>
+		<actors>Emily Blunt, John Krasinski, Millicent Simmonds, Noah Jupe</actors>
+		<genre>Horror</genre>
+		<dateofplaying>18.04.2018</dateofplaying>
+		<duration>90 min </duration>
+	</movie> 
+	<movie>
+		<title>Black Panther</title>
+		<actors>Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o, Danai Gurira</actors>
+		<genre>Acțiune</genre>
+		<dateofplaying>19.04.2018</dateofplaying>
+		<duration>134 min</duration>
+	</movie> 
+	<movie>
+		<title>Blockers</title>
+		<actors>Leslie Mann, Kathryn Newton, John Cena, Geraldine Viswanathan</actors>
+		<genre>Comedie</genre>
+		<dateofplaying>20.04.2018</dateofplaying>
+		<duration>102 min</duration>
+	</movie> 
+	<movie>
+		<title>Pacific Rim: Uprising</title>
+		<actors>John Boyega, Scott Eastwood, Cailee Spaeny, Burn Gorman </actors>
+		<genre>Aventură</genre>
+		<dateofplaying>17.04.2018</dateofplaying>
+		<duration>111 min</duration>
+	</movie> 
+	<movie>
+		<title>Isle of Dogs</title>
+		<actors>Bryan Cranston, Koyu Rankin, Edward Norton, Bob Balaban </actors>
+		<genre>Comedie</genre>
+		<dateofplaying>17.04.2018</dateofplaying>
+		<duration>111 min</duration>
+	</movie> 
+	
+</collection>

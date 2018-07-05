@@ -1,0 +1,49 @@
+movie {
+	display: block;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+title {
+	display: inline-block;
+	width: 100%;
+	background-color: #ccefef;
+	padding-right: 5px;
+}
+actors {
+	display: inline-block;
+	width: 30%;
+	border-left-style: solid;
+	border-left-width: 1px;	
+	padding-left: 5px;
+}
+
+genre {
+	display: inline-block;
+	width: 15%;
+	border-left-style: solid;
+	border-left-width: 1px;	
+	padding-left: 5px;	
+}
+
+dateofplaying {
+	display: inline-block;
+	width: 20%;
+	border-left-style: solid;
+	border-left-width: 1px;	
+	padding-left: 5px;
+}
+
+duration{
+	display: inline-block;
+	width: 20%;
+	border-left-style: solid;
+	border-left-width: 1px;	
+	padding-left: 5px;
+}
+.comedie{
+background:red;
+}

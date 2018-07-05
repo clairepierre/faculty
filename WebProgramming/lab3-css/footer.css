@@ -1,0 +1,69 @@
+.footer{
+	position: relative;
+    top:10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color:#bfbfbf;
+    font-family:Helvetica;
+    font-size: 12px;
+
+}
+.footer::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.footer::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+.footer::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+.footer::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.footerCity{
+font-size:15px;
+font-family:Helvetica;
+padding-left:125px;
+display: block;
+position:relative;
+float:left;
+}
+.footerStar{
+padding-left:20px;
+display: block;
+position:relative;
+float:left;
+}
+.footerC{
+font-size:15px;
+font-family:Helvetica;
+padding-left:20px;
+display: block;
+position:relative;
+float:left;
+}
+.inLine{
+display:inline-block;
+width:10%;
+padding-left:20px;
+font-size: 22px;
+text-align: left;
+}
+.footerOpt{
+
+padding-left:0px;
+display: block;
+position:relative;
+float:left;
+font-size: 22px;
+
+}
+

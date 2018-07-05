@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<style>
+td{
+padding-left:100px;
+padding-bottom:70px;
+position:absolute;
+}
+input[type=text] {
+    width: 25%;
+	color:#e6e6e6;
+	box-sizing: border-box;
+	border:0px;
+    font-size: 16px;
+    background-color: #262626;
+	min-height:35px;
+    background-position:absolute; 
+    padding: 10px 45px 6px 12px;
+	padding-right:100px;
+}
+.inLine{
+display:inline-block;
+width:14%;
+font-size: 22px;
+text-align: left;
+padding: 50px 50px 0px 0px;}
+
+.listR{
+font-size:16px;
+list-style-type:none;
+text-align:left;
+link-color: red;
+}
+
+</style>
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="options.css">
+<link rel="stylesheet" href="menu.css">
+<link rel="stylesheet" href="dropdown.css">
+<link rel="stylesheet" href="searchbar.css">
+</head>
+<body>
+<div>
+<div class="menu">
+<table width="100%">
+<tbody>
+<tr>
+<td><img src="logo_cnn_nav_bottom.png" alt="logo" width="70%"></img></td>
+<td class="options">
+<nav>
+	<a href="index.html">Regions</a> |
+	<a href="descriere.html">U.S.Politics</a> |
+	<a href="oferte.html">Money</a> |
+	<a href="contact.html">Entertainment</a> |
+	<a href="contact.html">Tech</a> |
+	<a href="contact.html">Sport</a> |
+	<a href="contact.html">Travel</a> |
+	<a href="contact.html">Style</a> |
+	<a href="contact.html">Health</a> |
+	<a href="contact.html">Video</a> |
+	<a href="contact.html">VR </a> 
+</nav>
+<td class="opt">
+	<nav align="right" >
+	<a href="index.html"> International Edition + </a> 
+	<img src="search2.svg" style="padding-left:10px" alt="s" width="2%"></img>
+	<img src="hmbr.png" style="padding-left:10px" alt="=" width="2%"></img>
+	</nav>
+</td>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="footer" style="padding-top:300px">
+<div>
+  <img src="weather.png" style="padding-left:100px" alt="=" width="30%" align="left"></img>
+  <input type="text" placeholder="Search CNN.." style="margin-right:125px"></input></div>		
+  <div class="inLine"><p> Regions</p>
+  <ul class="listR">
+			<li><a href="https://edition.cnn.com/us">U.S.</a></li>
+			<li><a href="https://edition.cnn.com/africa">Africa</a></li>
+			<li><a href="https://edition.cnn.com/americas">Americas</a></li>
+			<li><a href="https://edition.cnn.com/asia">Asia</a></li>
+			<li><a href="https://edition.cnn.com/china">China</a></li>
+			<li><a href="https://edition.cnn.com/europe">Europe</a></li>
+			<li><a href="https://edition.cnn.com/americas">Middle East</a></li>
+			<li><a href="https://edition.cnn.com/americas">Opinion</a></li>
+			</ul>
+  </div>
+  <div class="inLine"><p> U.S.Politics</p>
+	<ul class="listR">
+			<li><a href="https://edition.cnn.com/specials/politics/president-donald-trump-45">45</a></li>
+			<li><a href="https://edition.cnn.com/specials/politics/congress-capitol-hill">Congress</a></li>
+			<li><a href="https://edition.cnn.com/specials/politics/us-security">Security</a></li>
+			<li><a href="https://edition.cnn.com/asia">The Nine</a></li>
+			<li><a href="https://edition.cnn.com/china">Trumpmerica</a></li>
+			<li><a href="https://edition.cnn.com/europe">2018</a></li>
+			</ul>
+  </div>
+  <div class="inLine"><p>Money</p></div>
+  <div class="inLine"><p>entertainment</p></div>
+  <div class="inLine"><p>tech</p></div>
+  <div class="inLine"><p> Sport</p></div>
+<div align="right"><p style="margin-right:120px"> &copy; 2018 Cable News Network. Turner Broadcasting System, Inc. All Rights Reserved.</p>
+  <p style="margin-right:120px">CNN Sans & &copy; 2016 Cable News Network.</p>
+</div>
+
+</div>
+</div>
+</body>
+</html>

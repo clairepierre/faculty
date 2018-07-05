@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+</style>
+</head>
+<body>
+
+<a href="https://www.scs.ubbcluj.ro">Main Domain</a>
+<a href="https://www.scs.ubbcluj.ro/webmail/">Web Mail</a>
+<a href="https://www.facebook.com/">Facebook</a>
+
+
+<p id="demo">Click the button to remove all the < a > tags from a document if their href attribute begins with "http://www.scs.ubbcluj.ro"..</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+	var a = document.getElementsByTagName('a');
+	for (var idx= 0; idx < a.length; ++idx){
+		var h=a[idx].getAttribute("href")
+			if (h.search("https://www.scs.ubbcluj.ro")===0) {
+				a[idx].removeAttribute('href');
+			}
+	}
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+	window.setTimeout("document.getElementById('1').style.display='none';",  Math.floor(Math.random() * 5)*10000);
+	window.setTimeout("document.getElementById('2').style.display='none';", Math.floor(Math.random() * 7)*1000);
+	window.setTimeout("document.getElementById('3').style.display='none';", Math.floor(Math.random() * 5)*1000);
+	window.setTimeout("document.getElementById('4').style.display='none';", Math.floor(Math.random() * 4)*1000);
+	window.setTimeout("document.getElementById('5').style.display='none';", Math.floor(Math.random() * 7)*1000);
+	window.setTimeout("document.getElementById('6').style.display='none';", Math.floor(Math.random() * 5)*1000);
+	window.setTimeout("document.getElementById('7').style.display='none';", Math.floor(Math.random() * 4)*1000);
+	window.setTimeout("document.getElementById('8').style.display='none';", Math.floor(Math.random() * 2)*1000);
+</script>
+</head>
+<script>
+$(document).ready(function(){
+    var sum=0;
+    /*$("#imagini").children('img').forEach(function () {
+        (this.css({top:Math.floor(Math.random() * 5)*100,left:Math.floor(Math.random() * 5)*1000}))
+    });*/
+    $("p").append("scor:");
+    $("img").click(function(){
+        $(this).hide();
+        sum=sum+1;
+        $("p").empty();
+        $("p").append("scor:"+ sum);
+
+    });
+
+
+});
+</script>
+<style>
+    div{
+        background-color: lightgrey;
+        width: 250px;
+        border: 3px solid rosybrown;
+        padding-left: 25px;
+        margin: 25px;
+        position:absolute;
+        left:900px;
+        top: 10px;
+
+    }
+
+    p{
+        font-family: Calibri,fantasy;
+        font-size: medium;
+    }
+
+
+</style>
+<body>
+<h1>Try to catch the images</h1>
+<!--<div id="imagini" width="100%">-->
+    <img id="1" src="1.jpg" alt="Smiley face"/>
+    <img id="2" src="2.jpg" alt="Smiley face"/>
+    <img id="3" src="3.jpg" alt="Smiley face"/>
+    <img id="4" src="4.jpg" alt="Smiley face"/>
+    <img id="5" src="5.jpg" alt="Smiley face"/>
+    <img id="6" src="6.png" alt="Smiley face"/>
+    <img id="7" src="7.png" alt="Smiley face"/>
+
+<div>
+    <p></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+<!ELEMENT collection (movie+)>
+<!ELEMENT movie (title,actors+,genre,dateofplaying,duration)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT actors (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT dateofplaying (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+
+

@@ -1,0 +1,29 @@
+.options{
+padding-left:180px;
+margin-top:15px;
+}
+.options a:hover
+{
+color: #ffffff;
+}
+.opt{
+padding-right:140px;
+margin-top:8px;
+}
+.opt a:hover
+{
+color: #ffffff;
+}
+
+.nav {
+margin-top:10px;
+position:relative;
+float:right;
+}
+.nav a:hover
+{
+color: #ffffff;
+}
+.inter{
+padding-right:150px;
+}

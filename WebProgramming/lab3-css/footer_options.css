@@ -1,0 +1,12 @@
+.reg{
+	display: inline-block;
+	position:relative;
+	font-size: 22px;
+	padding-right: 50px;
+}
+.reg1{
+	display: inline-block;
+	position:absolute;
+	font-size: 22px;
+	padding-right: 150px;
+}
