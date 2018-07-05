@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Replace Text</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            $('.hate:contains(I hate you)').empty();
+        });
+    });
+</script>
+<body>
+<p class="hate"> I hate you!</p>
+<p class="hate"> I don't hate forest!</p>
+<div class="hate">
+    <img src="personnel.png" width="100dp" height="100dp"/>
+    <p>I hate you</p>
+ </div>
+<button>Remove</button>
+</body>
+</html>
