@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.121" fx:controller="sample.Controller">
+    <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="424.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+        <children>
+            <TextField fx:id="plain_txt" layoutX="64.0" layoutY="201.0" prefHeight="25.0" prefWidth="490.0" />
+            <TextField fx:id="cipher_txt" layoutX="64.0" layoutY="274.0" prefHeight="25.0" prefWidth="490.0" />
+            <Label layoutX="64.0" layoutY="168.0" prefHeight="33.0" prefWidth="116.0" text="Plain Text">
+                <font>
+                    <Font name="Berlin Sans FB" size="18.0" />
+                </font>
+            </Label>
+            <Label layoutX="64.0" layoutY="243.0" text="Cipher Text">
+                <font>
+                    <Font name="Berlin Sans FB" size="18.0" />
+                </font>
+            </Label>
+            <Button fx:id="encrypt_btn" onMouseClicked="#encrypt" layoutX="128.0" layoutY="339.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="104.0" text="Encrypt">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Button>
+            <Button fx:id="decrypt_btn" onMouseClicked="#decrypt" layoutX="309.0" layoutY="339.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="104.0" text="Decrypt" />
+            <Label layoutX="265.0" layoutY="86.0" text="Key">
+                <font>
+                    <Font name="Berlin Sans FB" size="18.0" />
+                </font>
+            </Label>
+            <TextField fx:id="length" layoutX="64.0" layoutY="117.0" />
+            <TextField fx:id="key" layoutX="265.0" layoutY="117.0" />
+            <Label layoutX="64.0" layoutY="86.0" prefHeight="17.0" prefWidth="68.0" text="Length">
+                <font>
+                    <Font name="Berlin Sans FB" size="18.0" />
+                </font>
+            </Label>
+            <ImageView fitHeight="112.0" fitWidth="136.0" layoutX="442.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+
+                </image>
+            </ImageView>
+        </children>
+    </Pane>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
